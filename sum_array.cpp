@@ -3,9 +3,14 @@
 using namespace std;
 
 int sumArray(const vector<int>& arr) {
+int sum = 0; 
+    for (int val : arr) { 
+        sum += val; 
+    }
+    return sum;
     // TODO: complete the function as per instructions
-    
 }
+
 
 int main() {
     int n; cin >> n;
